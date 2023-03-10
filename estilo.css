@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,500&family=Yellowtail&display=swap');
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.mainFrame{
+    height: 400px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.freepik.com%2Fvector-gratis%2Fplaca-circuito-fondo-procesador-chip-tecnologia-abstracta-codigo-html-vector-fondo-tecnologia-azul-ilustracion_115579-1502.jpg&f=1&nofb=1&ipt=ace01d7391620b2278a9085a2208e881a70642c83d330eae134985c5cada5d17&ipo=images);
+    background-size: cover;
+    background-position: center center;
+    color:white;
+}
+.mainFrame .contenido_Main{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 5px;
+}
+.mainFrame .contenido_Main header{
+    padding: 30px;
+}
+
+.mainFrame .contenido_Main header nav{
+    top: 65px;
+    position:fixed;
+    margin-left: 1px;
+    background-color: rebeccapurple;
+    padding: 10px;
+    border-radius: inherit;
+    border-radius: 5px;
+    text-align:left;
+    z-index: 20;
+    display: none;
+    
+}
+.mainFrame .contenido_Main header nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.mainFrame .contenido_Main header .nav a:hover{
+    box-shadow: 0 0 30px rgb(216, 213, 35);
+}
+.mainFrame .contenido_Main header .nav-bar{ 
+    top: 8px;
+    position: fixed;
+    background-color:rgb(247, 135, 6);
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.mainFrame .contenido_Main header .nav-bar:hover{
+    box-shadow: 0 0 40px rgb(255, 0, 234);
+}
+.mainFrame .contenido_Main .info1{
+    padding-bottom: 5px;
+}
+
+.mainFrame .contenido_Main .info1 h1{
+    text-shadow: 3px 3px 3px white;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    
+   
+}
+.mainFrame .contenido_Main .info1 h2 {
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+.mainFrame .contenido_Main .redes{
+     margin: 20px 0px; 
+}
+
+.mainFrame .contenido_Main .redes a{
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(132, 241, 227);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px 5px;
+    transition: .3s;
+
+}
+.mainFrame .contenido_Main .redes a:hover{
+    color: rgb(18, 253, 222);
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+}
+    
+.mainFrame .foto1{
+    position: relative;
+}
+.mainFrame .foto1 img{
+    max-width: 150px;
+    border-radius: 60%;
+    border: 3px solid rgb(0, 0, 0);
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    transform: translateX(-50%);
+
+}
+.mi_seccion{
+    max-width: 1000px;
+    color:whitesmoke;
+    padding: 10px;
+    background-color: rgb(161, 160, 241);
+    font-family: "yellowtail";
+    font-size: 1.5rem;
+    text-decoration:underline;
+
+}
+.mi_info{
+    background-color:black;
+    border: 2px solid rgb(107, 9, 102);
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.mi_info .informacion{
+    background-color: rgb(161, 160, 241);
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.mi_info .informacion h3{
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 30px;
+}
+.mi_info .informacion p{
+    max-width: 750px;
+    margin: auto;
+    color: black;
+}
+.mi_info .informacion .fila{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.mi_info .informacion .fila .colum{
+    width: 45%;
+}
+.mi_info .informacion .fila .colum i{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(245, 3, 3);
+    line-height: 40px;
+    border-radius: 50%;
+}
+.mi_info .informacion .fila .colum span{
+    display: block;
+    font-weight: bold; 
+    margin: 7px;
+}
+.contacto1{
+    background-color: #000000;
+    border: 3px solid rgb(107, 9, 102);
+    padding: 10px 0 10px 0;
+    color: white;
+    text-align: center;
+    
+}
+.contacto1 .contenido{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contacto1 .contenido h2{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.contacto1 .contenido .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto1 .contenido .fila .col{
+    margin-top: 30px;
+}
+.contacto1 .contenido .fila .col h2{
+    color: rgb(159, 226, 115);
+}
+    
+/** configarando responsive*/
+@media screen and (max-width: 768px){
+    .mi_info .informacion .fila{
+        display:block
+    }
+    .mi_info .informacion .fila .colum{
+        width:auto;
+        text-align: center;
+    }
+    .contacto1 .contenido .fila{
+        display: block;
+    }
+}
